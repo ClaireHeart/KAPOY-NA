@@ -1,0 +1,70 @@
+/* Background for the login container */
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('HCDC.png') no-repeat center center/cover;
+}
+
+/* Styling for the login box */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 40px;
+    width: 320px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Centers all text and inline elements */
+    position: relative;
+}
+
+/* Logo at the top of the login form */
+.logo {
+    width: 100px;
+    display: block; /* Makes the logo behave as a block element */
+    margin: 0 auto 20px; /* Centers the logo horizontally and adds bottom margin */
+}
+
+/* Input fields */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Login button */
+.login-btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Link for signup */
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

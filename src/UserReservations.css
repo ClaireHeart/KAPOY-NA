@@ -1,0 +1,97 @@
+/* Dims the background when the modal is open */
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above everything else */
+  }
+  
+  /* Modal (popup) styling */
+  .reservation-modal {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center; /* Center-align the content */
+  }
+  
+  /* Logo styling */
+  .logo {
+    width: 120px; /* Adjust the width as necessary */
+    margin-bottom: 20px; /* Add spacing below the logo */
+  }
+  
+  /* Form styling */
+  .reservation-form label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .reservation-form input,
+  .reservation-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .reservation-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cancel-btn, .next-btn, .back-btn, .reserve-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background-color: grey;
+    color: white;
+  }
+  
+  .next-btn, .reserve-btn {
+    background-color: red;
+    color: white;
+  }
+  
+  .back-btn {
+    background-color: grey;
+    color: white;
+  }
+  
+  /* Button hover effects */
+  .next-btn:hover, .reserve-btn:hover {
+    background-color: darkred;
+  }
+  
+  .cancel-btn:hover, .back-btn:hover {
+    background-color: #666;
+  }
+  
+  /* Add styles for the ITS logo */
+  .itslogo {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Centers the logo and adds spacing below */
+    margin-bottom: 6px;
+  }
+  
+  h1 {
+    font-size: 20px; /* Adjust the size as needed (e.g., 2em, 24px, etc.) */
+    font-weight: bold; /* Optional: Set the font weight */
+    margin-bottom: 15px; /* Optional: Adjust the margin below the heading */
+  }

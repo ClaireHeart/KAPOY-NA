@@ -1,0 +1,24 @@
+.sanction-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.sanction-title {
+    margin-bottom: 20px;
+}
+
+.sanction-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0f0f0; /* Background for the table */
+}
+
+.sanction-table th, .sanction-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.sanction-table th {
+    background-color: #ccc; /* Header background color */
+}

@@ -1,0 +1,27 @@
+.admin-header {
+    background-image: url('HCDC.png');
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .admin-logo {
+    max-height: 50px;
+  }
+  
+  .admin-navbar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .admin-navbar a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
