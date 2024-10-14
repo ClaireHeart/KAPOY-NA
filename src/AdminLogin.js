@@ -19,7 +19,8 @@ const AdminLogin = () => {
   return (
     <div className="login-container">
       <div className="login-box">
-        <img src="/itslogo.png" alt="Logo" className="logo" />
+        
+        {<img src="/ITS.png" alt="Logo" className="logo"/> }
         <h2>Login</h2>
         <form onSubmit={handleLogin}>
           <div className="input-group">

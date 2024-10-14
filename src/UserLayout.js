@@ -8,9 +8,8 @@ const UserLayout = () => {
     <>
       <header className="navbar">
         <div className="logo">
-        <img className="logo-image" src='/ITS.png' alt="logo" />
-        <img className="text-logo" src='/txt.png' alt="Text Logo" />
-
+          <img className="logo-image" src='/ITS.png' alt="logo" />
+          <img className="text-logo" src='/txt.png' alt="Text Logo" />
         </div>
         <nav>
           <ul>
@@ -46,14 +45,9 @@ const UserLayout = () => {
           </ul>
         </nav>
       </header>
-      
-      <div className="main-content">
-        {/* Placeholder or dynamic content */}
-        <div className="no-reservations">No Reservations Yet</div>
-        
-        {/* The Outlet component will render the nested routes */}
-        <Outlet />
-      </div>
+
+      {/* The Outlet component will render the nested routes */}
+      <Outlet />
     </>
   );
 };

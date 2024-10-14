@@ -1,27 +1,97 @@
-.admin-header {
-    background-image: url('HCDC.png');
-    height: 200px;
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .admin-logo {
-    max-height: 50px;
-  }
-  
-  .admin-navbar {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .admin-navbar a {
-    color: white;
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px 15px;
-    border-radius: 5px;
-  }
-  
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+.admin-navbar {
+  background-image: url('HCDC.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  position: relative;
+}
+
+/* Flex container for logo and text */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 120px;
+  margin-right: 10px;
+}
+
+.text-logo {
+  width: 250px;
+  height: 100px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar Links */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  background-color: gray;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Main Content */
+main {
+  margin-top: 80px; /* Adjust margin for the navbar */
+  padding: 20px;
+  text-align: center;
+}
+
+.no-reservations {
+  background-color: #e0e0e0;
+  color: #808080;
+  font-size: 24px;
+  padding: 50px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+/* Example CSS for active link highlighting */
+.active {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgba(37, 35, 35, 0.2);
+}

@@ -19,15 +19,13 @@
 }
 
 /* Logo at the top of the login form */
-.logo {
-    width: 100px;
-    display: block; /* Makes the logo behave as a block element */
-    margin: 0 auto 20px; /* Centers the logo horizontally and adds bottom margin */
-}
+
+  
+  
 
 /* Input fields */
 .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 20px;     
 }
 
 .input-group input {

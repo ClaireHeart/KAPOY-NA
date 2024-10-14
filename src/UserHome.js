@@ -1,10 +1,13 @@
 import React from 'react';
 
+
 const UserHome = () => {
   return (
-    <div>
-      
-    </div>
+<div className="main-content">
+        {/* Placeholder or dynamic content */}
+        <div className="no-reservations">No Reservations Yet</div>
+        
+      </div>
   );
 };
 

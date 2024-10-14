@@ -1,117 +1,125 @@
+/* General styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    background-color: #f4f4f4;
-  }
-  
-  /* Navbar */
-  .navbar {
-    background-image: url('HCDC.png'); /* Background image */
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    color: white;
-    position: relative;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-  }
-  
-  .logo-image {
-    height: 80px;
-    margin-right: 10px;
-  }
-  
-  .text-logo {
-    width: 250px;
-    height: 80px;
-  }
-  
-  /* Navbar Links */
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    margin-top: 12px;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-    position: relative;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
-  nav ul li a.active {
-    background-color: gray;
-  }
-  
-  nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Dropdown Menu */
-  nav ul li ul.dropdown {
-    display: none;
-    position: absolute;
-    top: 40px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  nav ul li:hover ul.dropdown {
-    display: block;
-  }
-  
-  nav ul li ul.dropdown li {
-    margin-left: 0;
-  }
-  
-  /* Main Content */
-  .main-content {
-    margin-top: 80px; /* Adjust margin for the navbar */
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .no-reservations {
-    background-color: #e0e0e0;
-    color: #808080;
-    font-size: 24px;
-    padding: 50px;
-    border-radius: 8px;
-    margin-top: 50px;
-  }
-  
-  /* Example CSS for active link highlighting */
-  .active {
-    font-weight: bold; /* Change this as needed */
-    color: #ffffff; /* Change this to your desired highlight color */
-    background-color: rgba(37, 35, 35, 0.2); /* Optional background highlight */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+  background-image: url('HCDC.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  position: relative;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 1px;
+  left: 20px;
+}
+
+.logo-image {
+  height: 120px;
+  margin-right: 10px;
+}
+
+.text-logo {
+  width: 250px;
+  height: 100px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 1px;
+  left: 70px;
+}
+
+/* Navbar Links */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  margin-top: 25px;
+}
+
+nav ul li {
+  margin: 0 10px;
+  position: relative;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  background-color: gray;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Dropdown Menu */
+nav ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+nav ul li ul.dropdown li {
+  margin-left: 0;
+}
+
+/* Main Content */
+.main-content {
+  margin-top: 80px; /* Adjust margin for the navbar */
+  padding: 20px;
+  text-align: center;
+}
+
+.no-reservations {
+  background-color: #e0e0e0;
+  color: #808080;
+  font-size: 24px;
+  padding: 50px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+/* Example CSS for active link highlighting */
+.active {
+  font-weight: bold; /* Change this as needed */
+  color: #ffffff; /* Change this to your desired highlight color */
+  background-color: rgba(37, 35, 35, 0.2); /* Optional background highlight */
 }
